@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "./_components/Header";
 import { Roboto } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const roboto = Roboto({
@@ -49,6 +50,7 @@ export default function RootLayout({
 			<body>
 				<Header />
 				{children}
+				<Analytics />
 			</body>
 		</html>
 	);
