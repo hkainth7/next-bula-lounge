@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Header from "./_components/Header";
 import { Roboto } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
@@ -9,6 +9,13 @@ const roboto = Roboto({
 	weight: "400",
 	subsets: ["latin"],
 });
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	maximumScale: 1,
+	userScalable: false,
+};
 
 export const metadata: Metadata = {
 	title: "Bula Lounge",
@@ -35,7 +42,6 @@ export const metadata: Metadata = {
 		description: "This is a description of Bula Lounge.",
 		images: { url: "https://www.myawesomewebsite.com/image.jpg" },
 	},
-	viewport: "width=device-width, initial-scale=1",
 	alternates: {
 		canonical: "https://www.myawesomewebsite.com/",
 	},
