@@ -15,7 +15,9 @@ const CarouselCard = (props: CarouselCardProps) => {
 				title={title}
 				titleTypographyProps={{ variant: "h6" }}
 			/>
-			<CardContent sx={{ display: "flex", justifyContent: "center" }}>
+			<CardContent
+				sx={{ display: "flex", flexDirection: "row", justifyContent: "center" }}
+			>
 				<Image src={src} height={300} width={300} alt={`${title} hookah`} />
 				<Typography variant="body2" color={"white"}>
 					{description}

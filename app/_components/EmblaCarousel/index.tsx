@@ -8,11 +8,6 @@ import {
 } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
-import {
-	NextButton,
-	PrevButton,
-	usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
 import { hookayTypeData } from "@/app/hookahTypeData";
 import CarouselCard from "../CarouselCard";
 import "@/app/_components/EmblaCarousel/styles.css";
@@ -33,13 +28,6 @@ const EmblaCarousel: React.FC<EmblaCarouselProps> = (props) => {
 
 	const { selectedIndex, scrollSnaps, onDotButtonClick } =
 		useDotButton(emblaApi);
-
-	const {
-		prevBtnDisabled,
-		nextBtnDisabled,
-		onPrevButtonClick,
-		onNextButtonClick,
-	} = usePrevNextButtons(emblaApi);
 
 	const setTweenFactor = useCallback((emblaApi: EmblaCarouselType) => {
 		tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length;
@@ -114,11 +102,6 @@ const EmblaCarousel: React.FC<EmblaCarouselProps> = (props) => {
 			</div>
 
 			<div className="embla__controls">
-				<div className="embla__buttons">
-					<PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-					<NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
-				</div>
-
 				<div className="embla__dots">
 					{scrollSnaps.map((_, index) => (
 						<DotButton
