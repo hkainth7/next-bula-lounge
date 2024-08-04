@@ -142,6 +142,10 @@ main {
 	color: #eeeeee;
 }
 
+header {
+	border-bottom: 2px solid #222831;
+}
+
 a {
 	color: white;
 	text-decoration: none;
@@ -153,4 +157,5 @@ footer {
 	color: white;
 	padding: 12px;
 	text-align: center;
+	border-top: 2px solid #222831;
 }
