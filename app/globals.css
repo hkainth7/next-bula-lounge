@@ -128,13 +128,19 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #31363f;
+	height: 100%;
 }
 
 main {
 	padding: 10px;
 	color: #eeeeee;
+	height: 100%;
 }
 
 a {
