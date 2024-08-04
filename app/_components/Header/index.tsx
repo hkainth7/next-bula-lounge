@@ -13,7 +13,7 @@ const Header = () => {
 				justifyContent="space-between"
 				padding="0 20px"
 			>
-				<Image src={BulaLogo} height={125} width={125} alt="Bula lounge logo" />
+				<Image src={BulaLogo} height={75} width={75} alt="Bula lounge logo" />
 				<nav>
 					<Link href="/">Home</Link>
 					<Link href="/About">About</Link>
