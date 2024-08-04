@@ -7,7 +7,9 @@ const CarouselCard = (props: CarouselCardProps) => {
 	const { title, src, description } = props;
 
 	return (
-		<Card sx={{ backgroundColor: "#222831", borderRadius: "4px" }}>
+		<Card
+			sx={{ backgroundColor: "#222831", borderRadius: "4px", height: "470px" }}
+		>
 			<CardHeader
 				sx={{ color: "white", padding: "8px", paddingLeft: "20px" }}
 				title={title}
