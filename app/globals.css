@@ -134,13 +134,12 @@ html {
 
 body {
 	background-color: #31363f;
-	height: 100%;
+	min-height: 100%;
 }
 
 main {
 	padding: 10px;
 	color: #eeeeee;
-	height: 100%;
 }
 
 a {
@@ -148,4 +147,10 @@ a {
 	text-decoration: none;
 	margin-left: 10px;
 	font-size: 14px;
+}
+
+footer {
+	color: white;
+	padding: 12px;
+	text-align: center;
 }

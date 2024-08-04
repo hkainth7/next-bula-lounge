@@ -4,6 +4,8 @@ import { Roboto } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+import Footer from "./_components/Footer";
+import { Stack } from "@mui/material";
 
 const roboto = Roboto({
 	weight: "400",
@@ -55,8 +57,11 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={roboto.className}>
 			<body>
-				<Header />
-				{children}
+				<Stack justifyContent={"space-between"} sx={{ height: "100vh" }}>
+					<Header />
+					{children}
+					<Footer />
+				</Stack>
 				<Analytics />
 				<SpeedInsights />
 			</body>
