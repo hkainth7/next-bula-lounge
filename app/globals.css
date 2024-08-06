@@ -130,11 +130,13 @@ table {
 
 html {
 	height: 100%;
+	width: 100%;
 }
 
 body {
 	background-color: #31363f;
 	min-height: 100%;
+	min-width: 100%;
 }
 
 main {
