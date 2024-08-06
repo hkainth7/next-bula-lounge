@@ -18,7 +18,7 @@ const CustomTypography = styled(Typography)({
 });
 
 const CustomLink = styled(Link)({
-	color: "#497445",
+	color: "#468CDE",
 	fontSize: "16px",
 });
 
@@ -85,17 +85,9 @@ const Footer = () => {
 						</BusinessHoursTypography>
 					</Stack>
 				</Stack>
-				<Stack>
-					<CustomTypography>Quick Links:</CustomTypography>
-					<Stack gap={2}>
-						<CustomLink href="/">Home</CustomLink>
-						<CustomLink href="/About">About</CustomLink>
-						<CustomLink href="ContactUs">Contact</CustomLink>
-					</Stack>
-				</Stack>
 			</Stack>
 			<Divider
-				sx={{ marginY: "12px", borderColor: "#497445", borderBottomWidth: 3 }}
+				sx={{ marginY: "20px", borderColor: "#497445", borderBottomWidth: 3 }}
 			/>
 			<Typography
 				sx={{
