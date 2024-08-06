@@ -34,7 +34,7 @@ const Footer = () => {
 		<footer>
 			<Stack gap={4} sx={{ marginTop: "10px" }}>
 				<Stack>
-					<CustomTypography>Follow Our Socials</CustomTypography>
+					<CustomTypography>Follow Our Socials:</CustomTypography>
 					<Stack direction="row" alignItems="center">
 						<Link href="https://www.instagram.com/bulahookahlounge?igsh=MTMzengydnk2MXFiNw==">
 							<InstagramIcon fontSize="large" />
@@ -54,7 +54,7 @@ const Footer = () => {
 					</Stack>
 				</Stack>
 				<Stack>
-					<CustomTypography>Business Info</CustomTypography>
+					<CustomTypography>Business Info:</CustomTypography>
 					<Stack gap={2} sx={{ marginLeft: "10px" }}>
 						<Stack direction="row">
 							<MailOutlineIcon sx={{ marginRight: "4px" }} />
@@ -71,7 +71,7 @@ const Footer = () => {
 					</Stack>
 				</Stack>
 				<Stack>
-					<CustomTypography>Business Hours</CustomTypography>
+					<CustomTypography>Business Hours:</CustomTypography>
 					<Stack sx={{ marginLeft: "10px" }} gap={1}>
 						<BusinessHoursTypography>
 							Sun - Tue: 6:30PM - 12:30AM
@@ -86,7 +86,7 @@ const Footer = () => {
 					</Stack>
 				</Stack>
 				<Stack>
-					<CustomTypography>Quick Links</CustomTypography>
+					<CustomTypography>Quick Links:</CustomTypography>
 					<Stack gap={2}>
 						<CustomLink href="/">Home</CustomLink>
 						<CustomLink href="/About">About</CustomLink>
