@@ -19,7 +19,7 @@ const Homepage = () => {
 					textAlign: "center",
 				}}
 			>
-				Welcome to <span style={{ color: "green" }}>Bula Hookah</span> Lounge!
+				Welcome to <span style={{ color: "#497445" }}>Bula Hookah</span> Lounge!
 			</Typography>
 			<Typography
 				variant="h6"

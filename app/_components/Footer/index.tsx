@@ -18,7 +18,7 @@ const CustomTypography = styled(Typography)({
 });
 
 const CustomLink = styled(Link)({
-	color: "#468CDE",
+	color: "#497445",
 	fontSize: "16px",
 });
 
@@ -37,19 +37,19 @@ const Footer = () => {
 					<CustomTypography>Follow Our Socials:</CustomTypography>
 					<Stack direction="row" alignItems="center">
 						<Link href="https://www.instagram.com/bulahookahlounge?igsh=MTMzengydnk2MXFiNw==">
-							<InstagramIcon fontSize="large" />
+							<InstagramIcon fontSize="large" sx={{ color: "#497445" }} />
 						</Link>
 						<Link href="https://youtube.com/@bulahookahlounge?si=-PkGPD7CmQ_NOf4a">
-							<YouTubeIcon fontSize="large" />
+							<YouTubeIcon fontSize="large" sx={{ color: "#497445" }} />
 						</Link>
 						<Link href="https://www.facebook.com/share/AUrtqQFX3K6hvjua/?mibextid=qi2Omg">
-							<FacebookIcon fontSize="large" />
+							<FacebookIcon fontSize="large" sx={{ color: "#497445" }} />
 						</Link>
 						<Link
 							href="https://youtube.com/@bulahookahlounge?si=-PkGPD7CmQ_NOf4a"
 							style={{ width: "35px" }}
 						>
-							<TikTokIcon color={"white"} />
+							<TikTokIcon color={"#497445"} />
 						</Link>
 					</Stack>
 				</Stack>
@@ -94,7 +94,9 @@ const Footer = () => {
 					</Stack>
 				</Stack>
 			</Stack>
-			<Divider sx={{ marginY: "12px" }} />
+			<Divider
+				sx={{ marginY: "12px", borderColor: "#497445", borderBottomWidth: 3 }}
+			/>
 			<Typography
 				sx={{
 					textAlign: "center",
