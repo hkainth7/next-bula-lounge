@@ -1,5 +1,4 @@
 import React from "react";
-
 import { EmblaOptionsType } from "embla-carousel";
 import EmblaCarousel from "../EmblaCarousel";
 import { Stack, Typography } from "@mui/material";
@@ -26,9 +25,10 @@ const Homepage = () => {
 				textAlign={"center"}
 				sx={{ marginY: "20px", fontWeight: "light" }}
 			>
-				Discover the finest hookah flavors in our cozy, inviting space with
-				plush seating and ambient lighting. Perfect for catching up with friends
-				or relaxing after a long day
+				Experience the ultimate hookah lounge vibe in our inviting space. Dive
+				into the finest flavors, unwind from work, and relax in our cozy
+				seating. It's the perfect place to hang out and have a great time with
+				friends.
 			</Typography>
 			<EmblaCarousel options={OPTIONS} />
 		</Stack>

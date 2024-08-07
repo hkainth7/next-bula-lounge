@@ -9,31 +9,31 @@ export const hookayTypeData: HookayTypeData[] = [
 	{
 		name: "Shisha Original",
 		description:
-			"As pure as snow. Indulge in a distinctive shisha experience with thismodel epitomizing beauty in simplicity. The white leather-finishedhose and maple-wood mouthpiece beautifully complement the whiteporcelain body and crystal-clear vase",
+			"Indulge in a pure, distinctive shisha experience. With a white leather-finished hose, maple-wood mouthpiece, and a crystal-clear vase, this model epitomizes beauty in simplicity.",
 		imageUrl: shishaOriginal,
 	},
 	{
 		name: "Wookah",
 		description:
-			"Inspired by the beauty of nature and wise trees. It is characterized by the multitude of regular cuts, with their pattern stylish to the flowers.",
+			"Inspired by nature's beauty and wise trees, this piece features stylish patterns of regular cuts resembling flowers. Its design captures the essence of elegance and tranquility.",
 		imageUrl: wookah,
 	},
 	{
 		name: "Grace",
 		description:
-			"It was designed to stand out from the crowd. No other water pipe on the market impresses with such a minimalist design. Its elegant lines and integrated blow-out valve create an almost seamless appearance.",
+			"Designed to stand out, this water pipe boasts a minimalist design like no other. Its elegant lines and integrated blow-out valve create a seamless, impressive appearance.",
 		imageUrl: grace,
 	},
 	{
 		name: "KBro",
 		description:
-			"an aesthetic monster that keeps your smoke nice and chilly. With this hookah, you can keep a beautiful exterior look while still maintaining a nice and enjoyable chilled smoking session. Customize your hookah with ice cubes/crushed ice, colouring, fruits, etc...",
+			"This hookah combines aesthetics and functionality, keeping your smoke cool. Enjoy a stylish exterior and a refreshing session, customizable with ice cubes, coloring, fruits, and more.",
 		imageUrl: kbro,
 	},
 	{
 		name: "Show Stopper",
 		description:
-			"This exquisite piece features a unique, twisted design in vibrant shades of purple and pink, creating a mesmerizing visual appeal. Perfect for both personal use and social gatherings, this hookah promises a premium smoking experience with its innovative design and high-quality craftsmanship.",
+			"This hookah’s twisted purple and pink design offers a captivating look. Ideal for any occasion, it delivers a premium smoking experience with its innovative design and craftsmanship.",
 		imageUrl: showStopper,
 	},
 ];
