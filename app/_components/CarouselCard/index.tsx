@@ -4,15 +4,15 @@ import { CarouselCardProps } from "./types";
 import Image from "next/image";
 import { styled } from "@mui/material/styles";
 
+const DescriptionTypography = styled(Typography)({
+	color: "white",
+	fontSize: "18px",
+	lineHeight: "1.6",
+	fontWeight: "light",
+});
+
 const CarouselCard = (props: CarouselCardProps) => {
 	const { title, src, description } = props;
-
-	const DescriptionTypography = styled(Typography)({
-		color: "white",
-		fontSize: "18px",
-		lineHeight: "1.6",
-		fontWeight: "light",
-	});
 
 	return (
 		<Card
